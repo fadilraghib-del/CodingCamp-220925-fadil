@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Fadil Rahgib</title>
+
+    <!--CSS External-->
+    <link rel="stylesheet" href="css\style.css">
+
+    <!--Tailwind CSS CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+</head>
+<body >
+
+
+</body>
+
+    <!--Header Content-->
+    <header class="main-header">
+        <!--Logo Website-->
+        <div class="logo">
+
+        </div>
+        <!--Navigation Menu-->
+        <nav>
+            <ul class="flex h-(100%) items-center gap- text-lg font-medium text-black">
+                <li><a class ="border nama-class" href="#about">Home</a></li>
+                <li><a class ="border nama-class" href="#projects">Profile</a></li>
+                <li><a class ="border nama-class"href="#projects">Portfolio</a></li>
+                <li><a class ="border nama-class"href="#contact">Message Us</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+     <hr>
+
+    <!--Main Content-->
+    <main>
+            <!--Home Section-->
+            <section id="home" class="min-h-screen flex items-center justify-center bg-gray-100">
+                <div class="text-center">
+                    <h1 class="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
+                    <p class="text-lg text-gray-700">I'm Fadil Rahgib, a Web Developer.</p>
+                </section>
+
+                <hr>
+
+                <!--Profile Section-->
+                <section id="about" class="min-h-screen flex items-center justify-center bg-white">
+                    <div class="max-w-3xl text-center">
+                        <h2 class="text-3xl font-bold mb-4">About Me</h2>
+                        <p class="text-lg text-gray-700">Masih Pemula Untuk Belajar Membuat Web Devlpoment.</p>
+                    </div>
+
+</section>
+                <hr>
+
+                <!--Portofolio Section-->
+                <section id="projects" class="min-h-screen flex items-center justify-center bg-gray-100">
+                    <div class="max-w-5xl text-center">
+                        <h2 class="text-3xl font-bold mb-4">Message Us</h2>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+
+                            <!-- Massage Us -->
+                           <form>
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="name">Name</label>
+                                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Your Name">
+                            </div>
+                            <div class="mb-4">  
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
+                                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Your Email">
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="message">Message</label>
+                                <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" rows="4" placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="flex items-center justify-center">
+                                <button type="button" onclick="validateForm()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">Send Message</button>
+                
+                
+    </main>
+
+    <!--Footer Content-->
+    <footer></footer>
+
+    <!--JavaScript External-->
+
+    <script src="js\script.js"></script>
+</body>
+
+</html>
